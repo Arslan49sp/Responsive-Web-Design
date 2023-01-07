@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survay Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survay Form</h1>
+    <p id="description">
+      This is an assignment task from freecodecamp to get certificate of front
+      end designer
+    </p>
+    <form action="#" method="post" id="survey-form">
+      <label id="name-label" for="name"
+        >Name:<input
+          type="text"
+          id="name"
+          placeholder="Enter your name..."
+          required
+      /></label>
+
+      <label id="email-label" for="email"
+        >Email:<input
+          type="email"
+          id="email"
+          placeholder="abc@hotmail.com"
+          required
+      /></label>
+
+      <label id="number-label" for="number"
+        >age:<input
+          type="number"
+          id="number"
+          min="10"
+          max="120"
+          placeholder="10"
+          required
+      /></label>
+
+      <label id="dropdown-label">Gender: </label>
+      <select id="dropdown">
+        <option value="">(choose your gender)</option>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3">Hanno</option>
+      </select>
+
+      <label for="married"
+        ><input
+          type="radio"
+          id="married"
+          name="marital-status"
+          value="married"
+          class="inline"
+        />
+        Married</label
+      >
+      <label for="single"
+        ><input
+          type="radio"
+          id="single"
+          name="marital-status"
+          value="single"
+          class="inline"
+        />
+        Single</label
+      >
+
+      <!-- <p style="text-align: left">Chose the pets you love:</p> -->
+      <label>Chose the pets you love:</label>
+      <label for="cats"
+        ><input type="checkbox" id="cats" value="cats" class="inline" />
+        Cats</label
+      >
+      <label for="dogs"
+        ><input type="checkbox" id="dogs" value="dogs" class="inline" />
+        Dogs</label
+      >
+
+      <label for="comments"
+        >Write down additional comments:
+        <textarea
+          name="comments"
+          rows="4"
+          cols="30"
+          id="comments"
+          placeholder="start writing here..."
+        ></textarea>
+      </label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
