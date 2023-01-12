@@ -1,0 +1,15 @@
+
+body{
+    width: 80%;
+    margin: auto;
+}
+#image{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+ h1 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+ }
