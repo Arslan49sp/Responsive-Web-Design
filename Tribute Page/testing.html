@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <style>
+      /* CSS for styling the product page */
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      .product-container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+      }
+      .product-image {
+        width: 50%;
+        float: left;
+      }
+      .product-details {
+        width: 50%;
+        float: right;
+        padding: 0 20px;
+      }
+      h1 {
+        margin: 0 0 20px 0;
+      }
+      .price {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #ffa500;
+      }
+      .description {
+        margin-top: 20px;
+        line-height: 1.5;
+      }
+      button[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-container">
+      <div class="product-image">
+        <img src="mirror.jpeg" alt="Product Image" />
+      </div>
+      <div class="product-details">
+        <h1>Product Name</h1>
+        <p class="price">$50</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
+          magna et iaculis congue, ipsum nibh tempus ipsum, non aliquet est
+          ipsum euismod nisl.
+        </p>
+        <form>
+          <button type="submit">Add to Cart</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
